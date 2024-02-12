@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c52);
+
+    }
+    section#login {
+        width: 80vw;
+
+    }
+
+    section#login > div#imagem {
+        width: 30%;
+        height: 100%;
+        float: left;
+    }
+
+    section#login > div#formulario {
+        width: 70%;
+        float: right;
+    }
+
+}
+
+@media  screen and (min-width: 992px)  {
+    section#login {
+        width: 990px;
+    }
+
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c52);
+
+    }
+
+    section#imagem > div#imagem {
+        width: 50%;
+        height: 100%;
+        float: left;
+      
+        
+    }
+
+    section#login > div#formulario {
+        width: 50%;
+        float: right;
+        
+    }
+}
+

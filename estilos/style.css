@@ -8,3 +8,53 @@ lilás: #5f2c82;
 
 
 */
+
+/* versão mobile first*/
+
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+body, html {
+    height: 100vh;
+    width: 100vw;
+    background-color: #5f2c82;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+section#login {
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    overflow: hidden; /*tudo fora da borda fica escondido*/
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.589);
+    transition: width 0.3s, height 1s;
+    transition-timing-function: ease;
+}
+
+section#login > div#imagem {
+    height: 200px;
+    background: #5f2c82 url(../imagens/pexels-mustafa-tekin-20053875.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: block;
+}
+
+section#login > div#formulario {
+    padding: 10px;
+    display: block;
+}
